@@ -6,13 +6,13 @@ Proyecto realizado con:
     Java        -> 11
     H2 Database -> 2.1.212
     
-# Concepto
+# Resumen
 
  Programa pequeño que simula un clon de Google Photos desde el lado del 🔙🔄️
 
  Utilizando la inyección de dependencias de Spring, el marco MVC, manejos de archivos
 
- También el CrudRepository  que es una interfaz de Spring , que maneja métodos de búsquedas y ordenamientos de manera automática
+ También la interfaz CrudRepository de Spring , que maneja métodos de búsquedas y ordenamientos de manera automática
 
  Tiene un pequeño script de JavaScript que pertime subir las img desde el lado del cliente
 
