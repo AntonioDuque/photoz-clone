@@ -8,14 +8,22 @@ Proyecto realizado con:
     
 # Concepto
 
-Programa pequeño que simula un clon de Google Photos desde el lado del 🔙🔄️
+ Programa pequeño que simula un clon de Google Photos desde el lado del 🔙🔄️
 
-Utilizando la inyección de dependencias de Spring, el marco MVC, manejos de archivos
+ Utilizando la inyección de dependencias de Spring, el marco MVC, manejos de archivos
 
-También el CrudRepository  que es una interfaz de Spring , que maneja métodos de búsquedas y ordenamientos de manera automática
+ También el CrudRepository  que es una interfaz de Spring , que maneja métodos de búsquedas y ordenamientos de manera automática
 
-Tiene un pequeño script de JavaScript que pertime subir las img desde el lado del cliente
+ Tiene un pequeño script de JavaScript que pertime subir las img desde el lado del cliente
 
+ De igual forma utilizo la estructura API REST que define un conjunto de funciones para realizar solicitudes 
+ y recibir respuestas a través del protocolo HTTP, como GET   y POST.
+
+ H2 es una base de datos relacional que se encuentra escrita en Java y funciona como una base de datos en memoria, 
+ cuyo uno de sus puntos fuertes es que puede trabajar como una base de datos embebida en aplicaciones Java o 
+ ejecutarse en modo cliente servidor.
+ 
+ http://localhost:8080/h2-console
 
 # Revisar
 
