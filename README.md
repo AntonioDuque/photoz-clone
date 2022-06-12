@@ -19,30 +19,27 @@ Proyecto realizado con:
  De igual forma utilizo la estructura API REST que define un conjunto de funciones para realizar solicitudes 
  y recibir respuestas a través del protocolo HTTP, como GET   y POST.
 
- H2 es una base de datos relacional que se encuentra escrita en Java y funciona como una base de datos en memoria, 
- cuyo uno de sus puntos fuertes es que puede trabajar como una base de datos embebida en aplicaciones Java o 
- ejecutarse en modo cliente servidor.
- 
+ Utilizando la H2 database  que funciona como una base de datos en memoria, en modo cliente servidor.
  http://localhost:8080/h2-console
 
 # Revisar
 
-pom.xml
+ pom.xml
 
-El archivo XML tiene información sobre las dependencias, 
-configuraciones y otra información importante sobre el proyecto. 
+ El archivo XML tiene información sobre las dependencias, 
+ configuraciones y otra información importante sobre el proyecto. 
 
-Maven revisa esta información y luego realiza la tarea designada.
+ Maven revisa esta información y luego realiza la tarea designada.
 
-Además chequear la carpeta resources que contiene diferentes archivos upload.html | application.properties | schema.sql
+ Además chequear la carpeta resources que contiene diferentes archivos upload.html | application.properties | schema.sql
 
-https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
-https://www.h2database.com/html/cheatSheet.html
+ https://docs.spring.io/spring-boot/docs/current/reference/html/application-properties.html
+ https://www.h2database.com/html/cheatSheet.html
 
 # Comandos finales para desplegar el proyecto desde CDM
 
-./mvnw clean package
+ ./mvnw clean package
 
-cd target 
+ cd target 
 
-java -jar .\photoz-clone-0.0.1-SNAPSHOT.jar
+ java -jar .\photoz-clone-0.0.1-SNAPSHOT.jar
